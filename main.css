@@ -1,0 +1,30 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body, html{
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  display: flex;
+  background-image: url("img/David-Pencil.jpg");
+  height: 100%;
+  width: 60%;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar p{
+  display: flex;
+  color: #fff;
+  text-transform: capitalize;
+}
