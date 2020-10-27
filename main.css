@@ -129,6 +129,7 @@ body, html{
   display: flex;
   margin: 50px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about_me h2{
@@ -177,5 +178,94 @@ body, html{
 .icons{
   display: flex;
   justify-content: space-around;
+}
 
+.icons .icon_bar{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons .icon_bar p{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.container_2{
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 25px;
+  width: 80%;
+}
+
+.description h2{
+  font-size: 33px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 3px solid #06b4ff;
+  margin: 5px;
+  width: 165px;
+}
+
+.description hr{
+  border-top: 1px solid #dddddd;
+  margin: 24px;
+}
+
+.description h3{
+  font-weight: bolder;
+  font-size: 20px;
+  color: #111111;
+  /* font-family: 'PT Sans'; */
+}
+
+.description p{
+  font-size: 18px;
+}
+
+.description .list_skill{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.description ul{
+  padding: 0 115px 0 0;
+}
+
+.description ul li{
+  padding: 2px;
+  list-style: none;
+}
+
+.description ul li:before{
+    content: '✔';
+    color: #111111;
+    padding: 10px 10px 10px 0;
+}
+
+.percent{
+  display: flex;
+  align-items: center;
+}
+
+.description .percent .per{
+  font-size: 48px;
+  font-weight: 500;
+  width: 100px;
+}
+
+.description .percent .sub_text{
+  padding-bottom: 13px;
+  margin: 15px;
+  font-weight: 500;
+  border-bottom: 8px solid #D4D4D4;
+  width: 100%;
 }
