@@ -269,3 +269,90 @@ body, html{
   border-bottom: 8px solid #D4D4D4;
   width: 100%;
 }
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 50px 25px;
+  width: 80%;
+}
+
+.exp h2{
+  font-size: 33px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 3px solid #06b4ff;
+  margin: 5px;
+  width: 195px;
+}
+
+.exp > h3{
+  font-weight: bolder;
+  font-size: 20px;
+  color: #111111;
+  padding-top: 35px;
+}
+
+.exp p{
+  font-size: 18px;
+}
+
+.blocks .first_block{
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.blocks .second_block{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.blocks .third_block{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.blocks .fourth_block{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.blocks .fifth_block{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.blocks .sixth_block{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+}
+
+.vl{
+  border-left: 5px solid #000;
+}
