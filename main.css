@@ -305,54 +305,102 @@ body, html{
   font-size: 18px;
 }
 
-.blocks .first_block{
+.blocks{
   display: flex;
-  justify-content: flex-start;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+  justify-content: center;
 }
 
-.blocks .second_block{
-  display: flex;
-  justify-content: flex-end;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+.left_blocks .first_block{
+height: 180px;
+justify-content: flex-end;
+display: flex;
+padding: 0 10px;
+margin: 25px 0;
 }
 
-.blocks .third_block{
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+.left_blocks .second_block{
+height: 290px;
+display: flex;
+flex-direction: column;
+background-color: #dfdfdf;
+padding: 0 10px;
+margin: 25px 0;
 }
 
-.blocks .fourth_block{
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+.left_blocks .third_block{
+height: 215px;
+justify-content: flex-end;
+display: flex;
+padding: 0 10px;
+margin: 25px 0;
 }
 
-.blocks .fifth_block{
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+.right_blocks .fourth_block{
+height: 180px;
+display: flex;
+flex-direction: column;
+padding: 0 10px;
+background-color: #dfdfdf;
+margin: 25px 0;
 }
 
-.blocks .sixth_block{
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  margin: 15px;
-  width: 500px;
+.right_blocks .fifth_block{
+height: 290px;
+display: flex;
+padding: 0 10px;
+margin: 25px 0;
+}
+
+.right_blocks .sixth_block{
+height: 215px;
+display: flex;
+flex-direction: column;
+padding: 0 10px;
+margin: 25px 0;
+background-color: #dfdfdf;
+}
+
+.vertical_line{
+  margin: 50px;
 }
 
 .vl{
-  border-left: 5px solid #000;
+  border-left: 8px solid #032340;
+  height: 680px;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.edu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 50px 25px;
+  width: 80%;
+}
+
+.edu h2{
+  font-size: 33px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 3px solid #06b4ff;
+  margin: 5px;
+  width: 195px;
+}
+
+.edu > h3{
+  font-weight: bolder;
+  font-size: 20px;
+  color: #111111;
+  padding-top: 35px;
+}
+
+.edu p{
+  font-size: 18px;
 }
