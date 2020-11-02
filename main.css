@@ -1,5 +1,5 @@
 *{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 body, html{
@@ -307,66 +307,50 @@ body, html{
 
 .blocks{
   display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.block{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block:nth-child(2n){
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bl{
+display: flex;
+flex-direction: column;
+position: relative;
+background-color: #dfdfdf;
+box-shadow: 0 3px 0 #06b4ff;
+padding: 0 10px;
+margin: 25px 0;
+width: 40%;
+}
+
+.vertical-line{
+  display: flex;
   justify-content: center;
-}
-
-.left_blocks .first_block{
-height: 180px;
-justify-content: flex-end;
-display: flex;
-padding: 0 10px;
-margin: 25px 0;
-}
-
-.left_blocks .second_block{
-height: 290px;
-display: flex;
-flex-direction: column;
-background-color: #dfdfdf;
-padding: 0 10px;
-margin: 25px 0;
-}
-
-.left_blocks .third_block{
-height: 215px;
-justify-content: flex-end;
-display: flex;
-padding: 0 10px;
-margin: 25px 0;
-}
-
-.right_blocks .fourth_block{
-height: 180px;
-display: flex;
-flex-direction: column;
-padding: 0 10px;
-background-color: #dfdfdf;
-margin: 25px 0;
-}
-
-.right_blocks .fifth_block{
-height: 290px;
-display: flex;
-padding: 0 10px;
-margin: 25px 0;
-}
-
-.right_blocks .sixth_block{
-height: 215px;
-display: flex;
-flex-direction: column;
-padding: 0 10px;
-margin: 25px 0;
-background-color: #dfdfdf;
-}
-
-.vertical_line{
-  margin: 50px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .vl{
-  border-left: 8px solid #032340;
-  height: 680px;
+  width: 4px;
+  height: 100%;
+  background-color: #d7e4ed;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  /* left: 500px; */
 }
 
 .education{
