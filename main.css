@@ -348,9 +348,20 @@ width: 40%;
 
 .image{
   display: flex;
-  justify-content: center;
-  /* position: absolute; */
-  /* left: 500px; */
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 47.5%;
+}
+
+.image img{
+  width: 64px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #ffffff,
+    inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 200px;
+  margin-top: 15px;
 }
 
 .education{
