@@ -283,6 +283,7 @@ body, html{
   align-self: center;
   padding: 50px 25px;
   width: 80%;
+  box-sizing: border-box;
 }
 
 .exp h2{
@@ -311,27 +312,6 @@ body, html{
   position: relative;
 }
 
-.block{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.block:nth-child(2n){
-  display: flex;
-  justify-content: flex-start;
-}
-
-.bl{
-display: flex;
-flex-direction: column;
-position: relative;
-background-color: #dfdfdf;
-box-shadow: 0 3px 0 #06b4ff;
-padding: 0 10px;
-margin: 25px 0;
-width: 40%;
-}
-
 .vertical-line{
   display: flex;
   justify-content: center;
@@ -346,12 +326,39 @@ width: 40%;
   background-color: #d7e4ed;
 }
 
+.block{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.block:nth-child(2n){
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block:nth-child(2n) img{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 62px;
+  margin-right: unset;
+}
+
+.bl{
+display: flex;
+flex-direction: column;
+position: relative;
+background-color: #dfdfdf;
+box-shadow: 0 3px 0 #06b4ff;
+padding: 0 10px;
+margin: 25px 0;
+width: 40%;
+}
+
 .image{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   position: absolute;
-  top: 0;
-  left: 47.5%;
+  width: 80vw;
 }
 
 .image img{
@@ -360,42 +367,32 @@ width: 40%;
   box-shadow: 0 0 0 4px #ffffff,
     inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
-  margin-bottom: 200px;
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-right: 62px;
 }
 
-.education{
+.blocks img:nth-child(2n){
+  margin-right: unset;
+  margin-left: 62px;
+}
+
+.date{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 80vw;
+}
+
+.date p{
+  margin-top: 25px;
+  margin-left: 390px;
+}
+
+.block .date p:nth-child(2n){
+  margin-right:62px;
+  margin-right: 0;
+}
+
+.color{
   background-color: #f7f7f7;
-}
-
-.edu{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  padding: 50px 25px;
-  width: 80%;
-}
-
-.edu h2{
-  font-size: 33px;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-bottom: 3px solid #06b4ff;
-  margin: 5px;
-  width: 195px;
-}
-
-.edu > h3{
-  font-weight: bolder;
-  font-size: 20px;
-  color: #111111;
-  padding-top: 35px;
-}
-
-.edu p{
-  font-size: 18px;
 }
